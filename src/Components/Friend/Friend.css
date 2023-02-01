@@ -1,0 +1,21 @@
+.btn-add {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    border: 0;
+    background-color: #8149c5;
+    color: white;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: #7202fa;
+}
+.main-container{
+    width: 300px;
+    background-color: #d7bdf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

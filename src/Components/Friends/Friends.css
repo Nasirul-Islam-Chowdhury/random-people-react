@@ -1,0 +1,20 @@
+.friends-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 10px 50px;
+}
+.friend{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.friend img {
+    width: 200px;
+}
+@media screen and (max-width: 600px){
+.friends-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px 0px;
+}
+}
